@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper {
+    header {
+      font-size: 3em;
+      color: white;
+      font-weight: 700;
+
+    }
+    .resultDisplay {
+      font-size: 1.8em;
+      background-color: white;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 10px 0px;
+      display: none;
+    }
+    .scoreBoard {
+
+      display: flex;
+      gap: 10px;
+      align-items: flex-end;
+      div{
+        font-size: 1.6em;
+        color: white;
+        letter-spacing: 3px;
+      }
+      span {
+        font-size: 1.6em;
+        color: white;
+        letter-spacing: 2px;
+      }
+    }
+
+    .gridBox{
+      margin-top: 10px;
+      grid-gap: 8px;
+      background-color: #CCCCCC;
+      padding: 10px;
+      border-radius: 10px;
+      display: grid;
+      div {
+        font-size: 3em;
+        border-radius: 10px;
+        color: black;
+        font-weight: 600;
+        display: grid;
+        place-items: center;
+        user-select: none;
+        &[data-id='0'] {
+          background-color: #AAAAAA;
+          color: transparent;
+        }
+        &[data-id='2'] {
+          background-color: #DDECF4;
+        }
+        &[data-id='4'] {
+          background-color: #BAD9E8;
+        }
+        &[data-id='8'] {
+          background-color: #98C6DD;
+        }
+        &[data-id='16'] {
+          background-color: #75B3D1;
+        }
+        &[data-id='32'] {
+          background-color: #539FC6;
+        }
+        &[data-id='64'] {
+          background-color: #3B89B0;
+          color: white;
+        }
+        &[data-id='128'] {
+          background-color: #306079;
+          color: white;
+          
+        }
+        &[data-id='256'] {
+          background-color: #325d72;
+          color: white;
+          
+        }
+        &[data-id='512'] {
+          background-color: #293b44;
+          color: white;
+          
+        }
+        &[data-id='1024'] {
+          background-color: #1a2930;
+          color: white;
+        }
+        &[data-id='2048'] {
+          background-color: #000000;
+          color: white;
+        }
+      }
+    }
+}
+
+

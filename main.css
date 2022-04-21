@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper header {
+  font-size: 3em;
+  color: white;
+  font-weight: 700;
+}
+
+.wrapper .resultDisplay {
+  font-size: 1.8em;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  display: none;
+}
+
+.wrapper .scoreBoard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.wrapper .scoreBoard div {
+  font-size: 1.6em;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.wrapper .scoreBoard span {
+  font-size: 1.6em;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.wrapper .gridBox {
+  margin-top: 10px;
+  grid-gap: 8px;
+  background-color: #CCCCCC;
+  padding: 10px;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.wrapper .gridBox div {
+  font-size: 3em;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.wrapper .gridBox div[data-id='0'] {
+  background-color: #AAAAAA;
+  color: transparent;
+}
+
+.wrapper .gridBox div[data-id='2'] {
+  background-color: #DDECF4;
+}
+
+.wrapper .gridBox div[data-id='4'] {
+  background-color: #BAD9E8;
+}
+
+.wrapper .gridBox div[data-id='8'] {
+  background-color: #98C6DD;
+}
+
+.wrapper .gridBox div[data-id='16'] {
+  background-color: #75B3D1;
+}
+
+.wrapper .gridBox div[data-id='32'] {
+  background-color: #539FC6;
+}
+
+.wrapper .gridBox div[data-id='64'] {
+  background-color: #3B89B0;
+  color: white;
+}
+
+.wrapper .gridBox div[data-id='128'] {
+  background-color: #306079;
+  color: white;
+}
+
+.wrapper .gridBox div[data-id='256'] {
+  background-color: #325d72;
+  color: white;
+}
+
+.wrapper .gridBox div[data-id='512'] {
+  background-color: #293b44;
+  color: white;
+}
+
+.wrapper .gridBox div[data-id='1024'] {
+  background-color: #1a2930;
+  color: white;
+}
+
+.wrapper .gridBox div[data-id='2048'] {
+  background-color: #000000;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
